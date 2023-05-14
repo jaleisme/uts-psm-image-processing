@@ -1,6 +1,14 @@
 # Python Certificate Generator
 ###### https://github.com/jaleisme/uts-psm-image-processing
 
+```mermaid
+  graph TD;
+      A[Upload template and Font] --> B[Run the CLI];
+      B --> C[Input coordinate for name];
+      C --> D[Input the names];
+      D --> E[Enjoy the result!];
+```
+
 ###### This project is about Certificate Generator, where you can easily bulk-generate certificates using python. Here are packages that were used in making this project:
 ###### 1. Matplotlib -> Making a plot for mapping the coordinate for the image.
 ###### 2. Numpy (optional) -> Manually compressing image using some complex algorithm (K-Means clustering, Singular Vector Decomposition).
